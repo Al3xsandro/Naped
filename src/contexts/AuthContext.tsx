@@ -77,7 +77,6 @@ export function AuthProvider({ children }: AuthContextProviderProps){
                     destroyCookie(err, 'naped.token');
                 });
         }
-
     }, []);
     
     async function signUp({ 
