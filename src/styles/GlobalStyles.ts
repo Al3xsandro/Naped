@@ -12,6 +12,7 @@ export default createGlobalStyle`
         --title-color: #8257E6;
         --text-gray-color: #C4C4C4;
         --text-color-light: #FEFBFB;
+        --white-color: #FEFBFB;
     }
 
     body {

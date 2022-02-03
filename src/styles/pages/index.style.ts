@@ -4,8 +4,6 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    padding: 3rem;
 `;
 
 const slide = keyframes`
@@ -80,6 +78,8 @@ export const Grid = styled.section`
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        padding: 2rem;
 
         .container__logo {
             margin-top: 3rem;
